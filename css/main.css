@@ -11,7 +11,7 @@ html {
 
 .clock-face {
   height: 300px;
-  margin:50px;
+  margin: 50px;
   position: relative;
   width: 300px;
 
@@ -45,4 +45,8 @@ html {
 
 .hand-hour {
   animation: hand-rotate 6s linear infinite;
+}
+
+.hand {
+  position: absolute;
 }
